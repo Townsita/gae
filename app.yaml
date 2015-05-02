@@ -10,5 +10,7 @@ handlers:
 - url: /robots\.txt
   static_files: assets/robots.txt
   upload: assets/robots\.txt
+- url: /assets/css
+  static_dir: templates/assets/css
 - url: /.*
   script: _go_app
